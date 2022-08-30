@@ -33,6 +33,8 @@ Approximately 18 hours.
 
 ## Live Link
 
+[Business Landing Page](https://business-landing-page-souritaray.netlify.app/)
+
 
 ## Contact me on:
 
