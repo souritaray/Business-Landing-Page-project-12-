@@ -9,7 +9,7 @@ This is a Business Landing web page design made using HTML and CSS only. It is r
 ***
 ## Demo
 
-![output](output%20(1).png)
+![output](output%20.mp4)
 
 
 ## Mobile Layout
