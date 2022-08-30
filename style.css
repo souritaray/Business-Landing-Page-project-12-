@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #fbfbfb;
+    font-family: Sans-Serif;
+}
+/* header section */
+header{
+    background-color: #636c79;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    margin-left: 230px;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    width:580px;
+    list-style-type: none;
+}
+.fa-bars{
+    display: none;
+}
+.logo{
+    margin-top: 15px;
+}
+.btn button{
+    padding: 5px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 100px;
+}
+.headerpic img{
+    width:355px;
+    height:380px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.headercontent{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+}
+.header-text h1{
+    font-family: "Raleway";
+    font-size: 54px;
+    width:500px;
+}
+.header-text{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.header-text article{
+    margin-top: 20px;
+    font-size:15px;
+    width: 387px;
+}
+.input{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:500px;
+    padding:5px 6px 6px 13px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.lock{
+    border: none;
+    width:340px;
+}
+.green-btn{
+    background-color: #8bb7a2;
+    color:#fff;
+    border: none;
+    width:105px;
+    height:42px;
+}
+/* connect */
+.content{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headline h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: "Raleway";
+    width: 592px;
+    text-align: center;
+}
+.Achivements{
+    display: flex;
+    justify-content: space-around;
+}
+.Achivement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:160px;
+}
+.Achivement h3{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.Achivement p{
+    font-size: 14px;
+    color:#5d5f62;
+}
+.contentimg img{
+    margin-top: 60px;
+    width:885px;
+    object-fit: cover;
+}
+/* Features */
+
+.feature-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.feature-content .right-img img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    
+}
+.feature-content .img1 img{
+    object-position: right;
+}
+.feature-content .img2 img{
+    object-position: top;
+}
+.feature-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    gap: 30px;
+}
+.left h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    width:387px;
+}
+.left p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #5d5f62;
+    width:362px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.left{
+    margin-top: 60px;
+}
+.features .unique{
+    flex-direction: row-reverse;
+}
+ 
+/* Creative Team */
+.teams{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap:180px;
+}
+.heading h2{
+    width:270px;
+}
+.heading p{
+    color:#5d5f62;
+    width:380px;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card img{
+    width:300px;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.bg img{
+    object-position: top;
+}
+.card p{
+    width:300px;
+    font-size: 12px;
+    color: #5d5f62;
+    margin-top: 15px;
+}
+.teams .green-btn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* Footer */
+footer{
+    background-color: #10181d;
+    color: #fff;
+    padding: 5%;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fbfbfb;
+    padding: 0 0 30px 0;
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#bottom ul li{
+    list-style-type: none;
+    padding: 10px 0;
+    color: #808080;
+    font-size: 12px;
+}
+.product h3{
+    font-size: 12px;
+}
+
+#top .logo img{
+    width: 100px;
+}
+#top .social img{
+    padding: 8px;
+}
+
+@media only screen and (max-width:680px)  {
+    .logo img{
+        width:100px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 25px;
+    }
+    .nav-content{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        gap:20px;
+    }
+    .btn button{
+        margin-left: 0px;
+    }
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        margin-left: 17px;
+        align-items: center;
+    }
+    .headerpic img{
+        width:250px;
+    }
+    .header-text{
+        margin-left: -3px;
+    }
+    .header-text h1{
+        font-size: 25px;
+        width:250px;
+    }
+    .header-text article{
+        font-size: 15px;
+        width:250px;
+    }
+    .input{
+        width:250px;
+    }
+    .headline h2{
+        font-size: 25px;
+        width:250px;
+    }
+    .Achivements{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentimg img{
+        width:200px;
+    }
+    .feature-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .left h2{
+        font-size: 25px;
+        width:250px;
+        text-align: center;
+    }
+    .left p{
+        font-size: 15px;
+        width:250px;
+    }
+    .feature-content .right-img img {
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .right-img{
+        width: 250px;
+        height: 200px;
+    }
+    .features .unique{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading h2{
+        font-size: 20px;
+        width:250px;
+        text-align: center;
+
+    }
+    .heading p{
+        font-size: 15px;
+        width:250px;
+    }
+    footer #top{
+        display: flex;
+        gap:30px;
+    }
+    #bottom{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:685px) {
+    
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 25px;
+    }
+    .nav-content{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        gap:50px;
+    }
+    .btn button{
+        margin-left: 0px;
+    }
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        margin-left: 17px;
+        align-items: center;
+    }
+    .Achivements{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feature-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .features .unique{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer #top{
+        display: flex;
+        gap:30px;
+    }
+    #bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
