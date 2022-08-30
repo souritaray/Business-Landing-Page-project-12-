@@ -1,7 +1,7 @@
 
 # Business Landing Page
 
-  ![Link](https://img.shields.io/badge/Technology%20Used%3A-HTML%2FCSS-blue)
+  ![Link](https://img.shields.io/badge/Technology%20Used%3A-HTML%2FCSS-grey)
 
 This is a Business Landing web page design made using HTML and CSS only. It is responsive as well. Please check it out. 
 ***
